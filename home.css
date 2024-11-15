@@ -1,0 +1,104 @@
+body{
+    background-image: url(my.jpg);
+    margin: auto; 
+    padding: auto;
+   }
+   
+   header{
+     background: linear-gradient(to right, #ac2cde, #d35de0);
+     justify-content: space-between;
+     display: flex;
+     height: 80px;
+     width: 100%;
+   }
+   
+   header h1{
+     color: aliceblue;
+     font-size: 50px;
+     margin-top: 9px;
+     margin-left: 2rem;
+     cursor: default;
+   }
+   
+   header .p {
+     margin-top: 20px;
+     margin-right: 2rem;
+   }
+   
+   header .p button{
+     width: 100px;
+     height: 40px;
+     border-radius: 10px;
+     border: none;
+     background-color: #e4dfe3;
+     font-size: 18px;
+     font-weight: bolder;
+     cursor:default ;
+   }
+   
+   header .p button:hover{
+     background-color: #320316;
+     color: whitesmoke;
+   }
+   
+   header .p a {
+     font-size: 25px;
+     color: aliceblue;
+     cursor: default;
+   }
+   
+   nav {
+     background-color: #7602a4;
+     display: flex;
+     justify-content: center; 
+     align-items: center; 
+     height: 50px;
+     width: 100%;
+   }
+   
+   nav ul {
+     list-style: none; 
+     display: flex; 
+     
+   }
+   
+   nav ul li { 
+     margin: 0 30px;
+   }
+   
+   nav ul li a {
+     font-size: 25px;
+     font-weight: bold;
+     text-decoration: none;
+     color: aliceblue;
+     cursor: default;
+   }
+   
+   
+   nav ul li a:hover {
+     color: rgb(176, 152, 182);
+   }
+   
+   main {
+     background-color: #384a53ca;
+     width: 700px;
+     height: 400px;
+     border-radius: 10px;
+     margin: 5% 25%;
+     padding: 40px;
+   }
+   
+   main table {
+     width: 600px;
+     margin-left: 40px;
+     border-color: rgb(150, 212, 215);
+     color: aliceblue;
+   }
+   
+   main table thead{
+     color: aliceblue;
+   }
+
+   main table tbody{
+    color: aliceblue;
+   }
